@@ -18,5 +18,5 @@ This is a real time news scraping and recommendation system. The system uses a n
 ![image](https://github.com/wxm146case/Tap-News-System/blob/master/life%20cycle.PNG)
 
 # ScreenShot
-![image](https://github.com/wxm146case/Tap-News-System/blob/master/log%20in.png)
-![image](https://github.com/wxm146case/Tap-News-System/blob/master/newsList.png)
+![login](https://user-images.githubusercontent.com/29580346/42471970-8a0e2326-8374-11e8-91f6-ea4c69ae105d.png)
+![web](https://user-images.githubusercontent.com/29580346/42471971-8c174e36-8374-11e8-85e0-f9633e536bad.png)
