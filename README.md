@@ -1,19 +1,23 @@
 # LK-Tap-News-System
-run it:
-pre-requirement:
-1.redis;
+
+Pre-requirement:
+
+1.redis
 
 2.mongodb
 
-install:
+Install:
+
 pip3 install -r requirements.txt
+
 cd ./tap-news-webserver/web
 npm install
+
 cd ./tap-news-webserver/server
 npm install
 
 
-run:
+Run:
 
 ./news_launcher.sh(scrape, dedupe news)
 
