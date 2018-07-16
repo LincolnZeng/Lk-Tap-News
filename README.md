@@ -1,4 +1,13 @@
 # Tap-News-System
+run it;
+pre-requirement:
+1.redis
+2.mongodb
+
+run:
+./launcher.sh
+localhost:3000
+
 This is a real-time news scraping rendering and recommendation system. A news pipeline was built to scrape latest news from various of sources such as CNN, BBC. A single-page web application using React was buit to render scraped news to users. In addition, in order to customize news for users, I designed and built a training pipeline for news topic modeling using Tensorflow.
 
 ● Implemented a news pipeline which monitors, scrapes and dedupes latest news (MongoDB, Redis, RabbitMQ, TF-IDF);
