@@ -1,10 +1,19 @@
-# Tap-News-System
-run it;
+# LK-Tap-News-System
+run it:
 pre-requirement:
-1.redis
+1.redis;
+
 2.mongodb
 
 run:
+cd ./tap-news-webserver/server
+npm install
+
+cd ../../tap-news-backendserver
+python3 install -r requirements.txt
+
+cd ../news_recommendation_service
+python3 recommendation_service.py &
 ./launcher.sh
 
 localhost:3000
