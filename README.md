@@ -6,6 +6,7 @@ pre-requirement:
 
 run:
 ./launcher.sh
+
 localhost:3000
 
 This is a real-time news scraping rendering and recommendation system. A news pipeline was built to scrape latest news from various of sources such as CNN, BBC. A single-page web application using React was buit to render scraped news to users. In addition, in order to customize news for users, I designed and built a training pipeline for news topic modeling using Tensorflow.
